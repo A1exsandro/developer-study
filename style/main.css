@@ -22,7 +22,7 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+    margin-bottom: 10px;
 }
 
 header .logo {
@@ -46,7 +46,7 @@ header nav a:hover {
 /*filme principal*/
 .filme-principal {
     font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/developer-study/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/developer-study/img/image136.png');
 
     height:400px;
     background-size:cover;
@@ -110,8 +110,11 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
-
-
+.cursos {
+    width: 100%;
+    height: 50vh;
+    margin-top: 10px;
+}
